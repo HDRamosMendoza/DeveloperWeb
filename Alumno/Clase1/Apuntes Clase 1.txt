@@ -8,4 +8,17 @@ MVC esta controlado por actions, cotroller -> rutas(url).
 RazorPages tiene eventos y MVC. Esta optimizado
 Blazer -> es de código ensamblado.
 
+UX/UI 
+Design Thinking
+
+Net Framework -> Windows Server.
+Net Core -> Se puede hostear en cualquier sistema operativo.
+
+Serverless -> Esta relacionado con los micro servicios. o te preocupas en donde lo hosteas
+Es como una funciona en la nube solo lo tienes que llamar. No se piensa en la infraestructura.
+
+
+
+
+A partir de net framework 5.0 existira NET CORE.
 
