@@ -51,3 +51,21 @@ Archivo > Nuevo > Proyecto > Visual C# > Web > Aplicacion Web ASP.NET (.NET FRAM
  En packages.config -> Esta todas las dependencias en todo el proyectos.
  
  
+ // Apoyo para el WIDGET
+ 
+ var numbers = ["UNO", "DOS", "TRES", "CUATRO"];
+var doubles = numbers.map(function(currentValue, index, array) {
+   //console.log(currentValue);
+   //console.log(index);
+   //console.log(array);
+   console.log(array[index] + " - " + (index+1) + "|"+ array.length);
+   
+   if((index+1) == array.length) {
+	console.log("Se agregar la clase active");
+   }
+   
+   var elemento = document.getElementById("images");
+   elemento.className += " col-md-6";
+   
+});
+ 
