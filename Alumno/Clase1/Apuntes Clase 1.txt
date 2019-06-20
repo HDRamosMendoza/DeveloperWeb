@@ -1,0 +1,11 @@
+WebFomrs / MVC / RazorPages(a futuro se recomienda) / Blazor (web assembly)
+
+- Averiguar como funciona GOOGLE.
+- Repasar SEO.
+
+La formateza de webform son sus eventos.
+MVC esta controlado por actions, cotroller -> rutas(url).
+RazorPages tiene eventos y MVC. Esta optimizado
+Blazer -> es de código ensamblado.
+
+
