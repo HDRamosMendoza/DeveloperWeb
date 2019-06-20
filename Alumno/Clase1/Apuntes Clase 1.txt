@@ -22,3 +22,32 @@ Es como una funciona en la nube solo lo tienes que llamar. No se piensa en la in
 
 A partir de net framework 5.0 existira NET CORE.
 
+Gitlab: https://gitlab.com/r2d2klapa/vs2017-web-201903
+Slack: https://join.slack.com/t/201903-70-vs/shared_invite/enQtNjcwMjIzOTkyNDIwLTk5OWYxZDdjZTRiM2Q2ODViZDlmZWUxN2FmOWQ3OTRlMDY3OTY2NjQ2OTFlMmZkNjYwYzY2NTdlNjliZTJkMzU
+
+--------------------------
+
+Archivo > Nuevo > Proyecto > Visual C# > Web > Aplicacion Web ASP.NET (.NET FRAMEWORK)
+ -> Nombre: CibertecWebAPP
+ -> Selecionamos MVC
+ 
+ - En autenticacion
+ 
+ 
+ En aplicativo que tiene un webcongif se puede hostear.
+ 
+ PM -> Package Manager
+ APP -> package -> XML -> Libreri, lib2
+ 
+ Libreria es igual a packague en NUGET.
+ 
+ Telerik.DataAccess.
+ 
+ Log4net
+ 
+ 1 - Herramietas > Adminstrador de Paquetes NUGET
+ 2 - En consola: -> install-package log4net
+ 
+ En packages.config -> Esta todas las dependencias en todo el proyectos.
+ 
+ 
