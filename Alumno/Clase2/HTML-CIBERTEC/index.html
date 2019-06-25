@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+    /*
+    body {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+    }
+    */
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mi primera web</h1>
+  <section>
+    <pre>
+      var miPrimeraWeb = true;
+    </pre>
+    <p>
+      Este es un párrafo
+    </p>
+    <p>
+      Install: npm install --save-dev webpack
+    </p>
+  </section>
+  <section>
+    <h3>Listas</h3>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+      <li>Item4</li>
+    </ul>
+  </section>
+  <section>
+    <h3>
+      Links
+    </h3>
+  </section>
+  <section>
+    <a href="http://www.cibertec.edu.pe" title="Ir a cibertec">
+      <img src="./img/cibertec.png" width="100"
+        alt="Logo Cibertec">
+    </a>
+  </section>
+  <section>
+    <h3>Tablas</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Cabecera 1</th>
+          <th>Cabecera 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Este es el body de la tabla</td>
+          <td>Otra columna 1</td>
+        </tr>
+        <tr>
+          <td>Este es el body de la tabla</td>
+          <td>Otra columna 2</td>
+        </tr>
+        <tr>
+          <td colspan="2">Este es el body de la tabla</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h3>Forms</h3>
+    <form method="POST">
+      <div>
+        <label for="nombre">Ingrese tu nombre</label>
+        <input type="text" name="nombre" id="nombre"/>
+      </div>
+      <div>
+        <label for="sexo">Seleccione tu sexo</label>
+        <select name="sexo" id="sexo">
+          <option>Masculino</option>
+          <option>Femenino</option>
+        </select>
+      </div>
+      <div>
+        <label >Radio</label>
+        <input type="radio" name="radio1" value="Radio 1"/>
+        <input type="radio" name="radio1" value="Radio 2"/>
+      </div>
+      <div>
+        <label for="fecha">Ingresa tu fecha de nacimiento</label>
+        <input type="date" name="fecha" id="fecha" 
+          value="2019-06-24" min="2019-06-24" max="2019-12-24"/>
+      </div>
+
+      <div>
+        <input type="submit" value="Guardar"/>
+        <!--
+          https://caniuse.com/
+        -->
+      </div>
+
+    </form>
+  </section>
+
+  <!--
+    <script src="dist/js/home.js"></script>
+  -->
+</body>
+</html>
