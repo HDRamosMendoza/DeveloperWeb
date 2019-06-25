@@ -10,4 +10,6 @@ Es el set de codigo qeu soporta ese archivo.
 
 https://fontawesome.com/
 
+https://caniuse.com/
+
 https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
