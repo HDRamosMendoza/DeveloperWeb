@@ -1,0 +1,13 @@
+En 
+SELECIONE LAS TAREAS ADICIONALES
+
+- [CHECK] Agregar la accion "Abrir con code" al menu contextual de archivo del Explorador
+- [CHECK] Agregar la accion "Abrir con code" al menu contextual de directorio del explorador de Windows.
+
+Que es encodificacion?
+Es el set de codigo qeu soporta ese archivo.
+
+
+https://fontawesome.com/
+
+https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
