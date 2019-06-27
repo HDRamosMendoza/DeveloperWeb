@@ -1,0 +1,12 @@
+Android -> Roboto
+Windows -> Segoe UI
+Apple -> helvetica
+
+
+https://www.culqi.com/ /* Mas barato */
+
+https://stripe.com/es-us
+
+https://bennettfeely.com/clippy/
+
+lighten - > Es una función de sass. El color que cuando quieres que se aclare.
