@@ -9,4 +9,10 @@ https://stripe.com/es-us
 
 https://bennettfeely.com/clippy/
 
+https://developer.mozilla.org/es/
+
 lighten - > Es una función de sass. El color que cuando quieres que se aclare.
+
+height: fit-content;
+align-self: center;
+/* Los 2 funcionan dentro de un display */
