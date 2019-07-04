@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Naves de Star Wars</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Consulta de naves de Star Wars</h1>
+    
+    <form>
+        <div>
+            <label for="idNave">
+                Ingresa un ID:
+            </label>
+            <input type="text" name="idNave" id="idNave">
+        </div>
+        <div>
+            <button id="btnConsulta">Consultar</button>
+        </div>
+    </form>
+
+    <dl>
+        <dt>Nombre:</dt>
+        <dd><span id="spnNombre"></span></dd>
+
+        <dt>Modelo:</dt>
+        <dd><span id="spnModelo"></span></dd>
+
+        <dt>Films:</dt>
+        <dd>
+            <ul id="ulFilms"></ul>
+        </dd>
+    </dl>
+    <script src="src/naves-sw.js"></script>
+</body>
+</html>
