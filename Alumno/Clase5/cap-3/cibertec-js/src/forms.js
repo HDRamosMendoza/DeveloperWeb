@@ -22,7 +22,7 @@ window.addEventListener("load", function(event) {
             .then(function (response){
                 console.log("raw response", response);
                 return response.json();
-            }
+            })
             .then(function (data) {
                 console.log("formatted response", data);
 
@@ -37,7 +37,6 @@ window.addEventListener("load", function(event) {
                 }
 
             })
-            
 
-    }
+    };
 });
