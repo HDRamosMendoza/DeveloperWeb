@@ -1,0 +1,5 @@
+http://restcountries.eu/rest/v2/all
+
+https://pptr.dev/
+
+https://swapi.co/
