@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
     entry: {
-        alumnos: './src/alumnos.js'},
+        alumnos: './src/alumno.js'},
     output: {
       filename: '[name].js',
       path: path.resolve(__dirname, 'dist')

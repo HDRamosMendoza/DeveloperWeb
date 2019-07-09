@@ -1,4 +1,5 @@
-import $ from "jquery"
+import $ from "jquery";
+import "./scss/app.scss";
 
 $(function() {
     console.log("Hola Soy el EXITO");
