@@ -5,7 +5,13 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.0.0",
     "jquery": "^3.4.1",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
