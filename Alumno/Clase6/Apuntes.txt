@@ -1,4 +1,7 @@
 Gitlab: https://gitlab.com/r2d2klapa/20190370.git
+
 Slack: https://join.slack.com/t/201903-70-vs/shared_invite/enQtNjcwMjIzOTkyNDIwLTk5OWYxZDdjZTRiM2Q2ODViZDlmZWUxN2FmOWQ3OTRlMDY3OTY2NjQ2OTFlMmZkNjYwYzY2NTdlNjliZTJkMzU
 
 git clone https://gitlab.com/r2d2klapa/20190370.git
+
+http://youmightnotneedjquery.com/

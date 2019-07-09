@@ -1,9 +1,9 @@
 const path = require("path");
 
 module.exports = {
-    entry: "./src/alumnos.js",
+    entry: "./src/alumno.js",
     output: {
-        filename: "alumnos.js",
-        path: path.resolve(__diname, "dist")
+        filename: "alumno.js",
+        path: path.resolve(__dirname, "dist")
     }
 }
