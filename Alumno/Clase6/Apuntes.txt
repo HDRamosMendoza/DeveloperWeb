@@ -7,3 +7,5 @@ git clone https://gitlab.com/r2d2klapa/20190370.git
 http://youmightnotneedjquery.com/
 
 npm install autoprefixer css-loader node-sass postcss-loader sass-loader style-loader --save-dev
+
+https://gitlab.com/r2d2klapa/20190370.git
