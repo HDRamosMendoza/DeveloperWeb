@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cibertec.DemoBackend", "Cibertec.DemoBackend\Cibertec.DemoBackend.csproj", "{888148E4-C11A-458A-B355-AAD01065411F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AA1B6273-BF35-401D-8FCD-A3047D4CF34F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888148E4-C11A-458A-B355-AAD01065411F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888148E4-C11A-458A-B355-AAD01065411F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888148E4-C11A-458A-B355-AAD01065411F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888148E4-C11A-458A-B355-AAD01065411F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{888148E4-C11A-458A-B355-AAD01065411F} = {AA1B6273-BF35-401D-8FCD-A3047D4CF34F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DD87C70-21AA-4B52-9ED6-E815040ECBFC}
+	EndGlobalSection
+EndGlobal
