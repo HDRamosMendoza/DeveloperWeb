@@ -1,0 +1,14 @@
+ProductsController.cs
+			.cshtml
+Index() -> return View(model) -> Listar
+			List<Product>
+Get
+Create() -> return View()
+
+Post
+Create(Product)
+
+GET/products -> Listar
+POST - GET/products/create -> insertar
+POST - GET/products/update/{id} -> actualizar
+POST - GET/products/delete/{Id} -> Eliminar
