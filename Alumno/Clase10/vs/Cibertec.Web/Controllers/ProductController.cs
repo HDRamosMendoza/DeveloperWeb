@@ -22,7 +22,8 @@ namespace Cibertec.Web.Controllers
         public ActionResult Index()
         {
             // Obtener la lista de productos de la BD
-            var products = unitOfWork.Products.GetList();
+            //var products = unitOfWork.Products.GetList();
+            var products = unitOfWork.Products.GetListWithDetails();
 
             // Enviar el listado a la vista.
             return View(products);

@@ -7,6 +7,7 @@ using Cibertec.Models;
 using Cibertec.Repositories.Northwind;
 using Dapper;
 using System.Data.SqlClient;
+using Cibertec.Models.ViewModels;
 
 namespace Cibertec.Repositories.Dapper.Northwind
 {
@@ -15,6 +16,21 @@ namespace Cibertec.Repositories.Dapper.Northwind
         public ProductRepository(string connectionString) : base(connectionString)
         {
 
+        }
+
+        public IEnumerable<ProductViewModel> GetListWithDetails()
+        {
+            // Debería ser reemplazado por un SP_
+            var sql = @"select p.*, s.ContactName + ' - ' + s.CompanyName as
+                        SupplierName
+                        from Product p left join Supplier s
+                        on p.SupplierId = s.Id";
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                // Hacer ña consulta en BD y mapear los resultados
+                // con la clase ProductViewModel
+                return connection.Query<ProductViewModel>(sql);
+            }
         }
 
         public IEnumerable<Product> ObtenerConPrecioMayorA(decimal precio)

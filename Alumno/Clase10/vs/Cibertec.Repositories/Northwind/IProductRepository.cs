@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Cibertec.Models;
+using Cibertec.Models.ViewModels;
 
 namespace Cibertec.Repositories.Northwind
 {
@@ -11,5 +12,7 @@ namespace Cibertec.Repositories.Northwind
     {
         // podrían ir métodos particulares sobre el modelo de Producto
         IEnumerable<Product> ObtenerConPrecioMayorA(decimal precio);
+
+        IEnumerable<ProductViewModel> GetListWithDetails();
     }
 }

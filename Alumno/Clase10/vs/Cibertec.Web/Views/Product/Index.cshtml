@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Cibertec.Models.Product>
+﻿@model IEnumerable<Cibertec.Models.ViewModels.ProductViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -26,6 +26,9 @@
         <th>
             @Html.DisplayNameFor(model => model.IsDiscontinued)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplierName)
+        </th>
         <th></th>
     </tr>
 
@@ -45,6 +48,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.IsDiscontinued)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplierName)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
