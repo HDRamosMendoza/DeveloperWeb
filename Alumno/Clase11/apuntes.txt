@@ -1,0 +1,35 @@
+ctr()
+
+vow = new unit(cs); => Constr(IVOW UOFWORK)
+			uow= uofwork
+
+Dependency Injection
+
+Dependency Container
+
+Interfaces  / Instancies
+
+IUnitOfWork / Northind
+	    / Unit Of Work	
+
+Se instalara un paquete de NUGGET SimplInjector.
+
+install-package SimpleInjector
+
+* Para instanciar una sola vez.
+install-package SimpleInjector.Integration.Web.Mvc
+
+System Reflection. Se puede leer todas las DLL.
+
+Buscar el conecto de INJECCION por DEPENDENCIAS.
+
+Model Binder. Investigar.
+
+Documentacion MVC
+https://docs.microsoft.com/es-es/aspnet/mvc/overview/getting-started/
+
+
+
+
+
+
