@@ -28,6 +28,8 @@ Model Binder. Investigar.
 Documentacion MVC
 https://docs.microsoft.com/es-es/aspnet/mvc/overview/getting-started/
 
+Para graficas: highcharts
+
 
 
 

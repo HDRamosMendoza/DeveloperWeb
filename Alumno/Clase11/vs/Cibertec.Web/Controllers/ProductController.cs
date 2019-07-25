@@ -40,8 +40,10 @@ namespace Cibertec.Web.Controllers
         {
             // obtener la lista de proveedores de la bd.
             var proveedores = unitOfWork.Suppliers.GetList();
+            var lista = proveedores.Select(p => new SelectListItem { Text = $"{p.CompanyName} - {p.ContactName}", Value = p.Id.ToString() });
 
-            ViewBag.SupplierList = proveedores.Select(p => new SelectListItem { Text = $"" });
+            // Enviar una lista de elemento SelectListItem a la vista
+            ViewBag.SupplierList = lista;
             return View();
         }
 
