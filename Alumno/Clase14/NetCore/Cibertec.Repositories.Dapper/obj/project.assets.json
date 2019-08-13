@@ -1592,12 +1592,14 @@
   },
   "libraries": {
     "Dapper/1.50.2": {
-      "sha512": "4sUecJaw/cXXq0nyM1qld+GcE+sKzEOEECotlbJN7hZRAY8c09sNWDY7MynUw0/W3hF+k9VPWu2RbEXGnJ8svA==",
+      "sha512": "6VcCiiOxVhgMwgMCuQuaff8I5IyDamrzeOjuUH1iMExh8R5TJqwkVCpwdVJGQdwSCqWsQA/PerrrK7T6mONthQ==",
       "type": "package",
       "path": "dapper/1.50.2",
       "files": [
-        "Dapper.1.50.2.nupkg.sha512",
-        "Dapper.nuspec",
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.1.50.2.nupkg.sha512",
+        "dapper.nuspec",
         "lib/net40/Dapper.dll",
         "lib/net40/Dapper.xml",
         "lib/net45/Dapper.dll",
@@ -2219,10 +2221,11 @@
       ]
     },
     "runtime.native.System.Net.Security/4.0.1": {
-      "sha512": "b5slndojDa5Rhn0ovCmML6QahP94KrJhCbLUb87lIUAXgcXNdNJAdFxXbeRqyVxy6HWtJa3cOoiEMlu+keEjyA==",
+      "sha512": "Az6Ff6rZFb8nYGAaejFR6jr8ktt9f3e1Q/yKdw0pwHNTLaO/1eCAC9vzBoR9YAb0QeZD6fZXl1A9tRB5stpzXA==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.0.1",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2399,10 +2402,11 @@
       ]
     },
     "System.Collections.NonGeneric/4.0.1": {
-      "sha512": "HOPkVB1y/66xB154umPBa+nbLFYpdFoydJOz78rZKXaIlWsWTJ7g6eXM21aCyohkH2wrxpw5kK2Vt3E861g9jQ==",
+      "sha512": "hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.0.1",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2436,10 +2440,11 @@
       ]
     },
     "System.Data.Common/4.1.0": {
-      "sha512": "6Mlj3IY2MdGJpexHkXj9EcqoDsvtO7a1GrjyoXe03C9C4cP55nvVoNRgzYQI/Y+ngWgzLd/I4yYMbfUMidfl/A==",
+      "sha512": "epU8jeTe7aE7RqGHq9rZ8b0Q4Ah7DgubzHQblgZMSqgW1saW868WmooSyC5ywf8upLBkcVLDu93W9GPWUYsU2Q==",
       "type": "package",
       "path": "system.data.common/4.1.0",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5152,10 +5157,11 @@
       ]
     },
     "System.Threading.ThreadPool/4.0.10": {
-      "sha512": "gX+lg3OtdzqUJWbmk4xyUILfP1KMXIPB5kNaOEYk5f6K2SoefVdTDUiNDbrmsoVJPv3+6jGEG0pXplbVKvkikg==",
+      "sha512": "IMXgB5Vf/5Qw1kpoVgJMOvUO1l32aC+qC3OaIZjWJOjvcxuxNWOK2ZTWWYXfij22NHxT2j1yWX5vlAeQWld9vA==",
       "type": "package",
       "path": "system.threading.threadpool/4.0.10",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5441,26 +5447,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cvelarde\\.nuget\\packages\\": {},
+    "C:\\Users\\VS2017-LM\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Repositories.Dapper\\Cibertec.Repositories.Dapper.csproj",
+      "projectUniqueName": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Repositories.Dapper\\Cibertec.Repositories.Dapper.csproj",
       "projectName": "Cibertec.Repositories.Dapper",
-      "projectPath": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Repositories.Dapper\\Cibertec.Repositories.Dapper.csproj",
-      "packagesPath": "C:\\Users\\cvelarde\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Repositories.Dapper\\obj\\",
+      "projectPath": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Repositories.Dapper\\Cibertec.Repositories.Dapper.csproj",
+      "packagesPath": "C:\\Users\\VS2017-LM\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Repositories.Dapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\cvelarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VS2017-LM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5468,17 +5471,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/autofixture/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.UnitOfWork\\Cibertec.UnitOfWork.csproj": {
-              "projectPath": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.UnitOfWork\\Cibertec.UnitOfWork.csproj"
+            "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Repositories\\Cibertec.Repositories.csproj": {
+              "projectPath": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Repositories\\Cibertec.Repositories.csproj"
             },
-            "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Repositories\\Cibertec.Repositories.csproj": {
-              "projectPath": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Repositories\\Cibertec.Repositories.csproj"
+            "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.UnitOfWork\\Cibertec.UnitOfWork.csproj": {
+              "projectPath": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.UnitOfWork\\Cibertec.UnitOfWork.csproj"
             }
           }
         }
@@ -5494,17 +5496,17 @@
         "dependencies": {
           "Dapper": {
             "target": "Package",
-            "version": "1.50.2"
+            "version": "[1.50.2, )"
+          },
+          "Dapper.Contrib": {
+            "target": "Package",
+            "version": "[1.50.0, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
-          },
-          "Dapper.Contrib": {
-            "target": "Package",
-            "version": "1.50.0"
           }
         },
         "imports": [

@@ -664,26 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cvelarde\\.nuget\\packages\\": {},
+    "C:\\Users\\VS2017-LM\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Models\\Cibertec.Models.csproj",
+      "projectUniqueName": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Models\\Cibertec.Models.csproj",
       "projectName": "Cibertec.Models",
-      "projectPath": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Models\\Cibertec.Models.csproj",
-      "packagesPath": "C:\\Users\\cvelarde\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\WebDeveloper\\Cibertec.NetCore\\Cibertec.Models\\obj\\",
+      "projectPath": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Models\\Cibertec.Models.csproj",
+      "packagesPath": "C:\\Users\\VS2017-LM\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\DeveloperWeb\\Alumno\\Clase14\\NetCore\\Cibertec.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\cvelarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VS2017-LM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -691,8 +688,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/autofixture/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -711,7 +707,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },
