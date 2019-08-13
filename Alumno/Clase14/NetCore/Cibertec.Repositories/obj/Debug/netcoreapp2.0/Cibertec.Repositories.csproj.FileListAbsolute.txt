@@ -1,0 +1,11 @@
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\bin\Debug\netcoreapp2.0\Cibertec.Repositories.deps.json
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\bin\Debug\netcoreapp2.0\Cibertec.Repositories.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\bin\Debug\netcoreapp2.0\Cibertec.Repositories.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\bin\Debug\netcoreapp2.0\Cibertec.Models.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\bin\Debug\netcoreapp2.0\Cibertec.Models.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\obj\Debug\netcoreapp2.0\Cibertec.Repositories.csprojResolveAssemblyReference.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\obj\Debug\netcoreapp2.0\Cibertec.Repositories.csproj.CoreCompileInputs.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\obj\Debug\netcoreapp2.0\Cibertec.Repositories.AssemblyInfoInputs.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\obj\Debug\netcoreapp2.0\Cibertec.Repositories.AssemblyInfo.cs
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\obj\Debug\netcoreapp2.0\Cibertec.Repositories.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories\obj\Debug\netcoreapp2.0\Cibertec.Repositories.pdb

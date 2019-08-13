@@ -1,0 +1,15 @@
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.deps.json
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.Models.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.Repositories.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.UnitOfWork.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.Repositories.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.UnitOfWork.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\bin\Debug\netcoreapp2.0\Cibertec.Models.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\obj\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.csprojResolveAssemblyReference.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\obj\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.csproj.CoreCompileInputs.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\obj\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.AssemblyInfoInputs.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\obj\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.AssemblyInfo.cs
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\obj\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.Repositories.Dapper\obj\Debug\netcoreapp2.0\Cibertec.Repositories.Dapper.pdb

@@ -1,0 +1,13 @@
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\bin\Debug\netcoreapp2.0\Cibertec.UnitOfWork.deps.json
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\bin\Debug\netcoreapp2.0\Cibertec.UnitOfWork.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\bin\Debug\netcoreapp2.0\Cibertec.UnitOfWork.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\bin\Debug\netcoreapp2.0\Cibertec.Models.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\bin\Debug\netcoreapp2.0\Cibertec.Repositories.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\bin\Debug\netcoreapp2.0\Cibertec.Repositories.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\bin\Debug\netcoreapp2.0\Cibertec.Models.pdb
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\obj\Debug\netcoreapp2.0\Cibertec.UnitOfWork.csprojResolveAssemblyReference.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\obj\Debug\netcoreapp2.0\Cibertec.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\obj\Debug\netcoreapp2.0\Cibertec.UnitOfWork.AssemblyInfoInputs.cache
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\obj\Debug\netcoreapp2.0\Cibertec.UnitOfWork.AssemblyInfo.cs
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\obj\Debug\netcoreapp2.0\Cibertec.UnitOfWork.dll
+C:\Repos\WebDeveloper\Cibertec.NetCore\Cibertec.UnitOfWork\obj\Debug\netcoreapp2.0\Cibertec.UnitOfWork.pdb
