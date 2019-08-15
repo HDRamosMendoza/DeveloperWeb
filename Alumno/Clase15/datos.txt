@@ -1,0 +1,57 @@
+Gitlab: https://gitlab.com/r2d2klapa/20190370.git
+Slack: https://join.slack.com/t/201903-70-vs/shared_invite/enQtNjcwMjIzOTkyNDIwLTk5OWYxZDdjZTRiM2Q2ODViZDlmZWUxN2FmOWQ3OTRlMDY3OTY2NjQ2OTFlMmZkNjYwYzY2NTdlNjliZTJkMzU
+
+git clone https://gitlab.com/r2d2klapa/20190370.git
+
+Documentacion MVC
+https://docs.microsoft.com/es-es/aspnet/mvc/overview/getting-started/
+
+npm i webpack webpack-cli --save-dev
+
+Para usar boostrap con webpack:
+npm install autoprefixer css-loader node-sass postcss-loader sass-loader style-loader --save-dev
+
+# webpack.config.js
+
+const path = require('path');
+
+module.exports = {
+  entry: {
+      alumnos: './src/alumnos.js'},
+  output: {
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'dist')
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(scss)$/,
+        use: [
+          {
+            // Adds CSS to the DOM by injecting a `<style>` tag
+            loader: 'style-loader'
+          },
+          {
+            // Interprets `@import` and `url()` like `import/require()` and will resolve them
+            loader: 'css-loader'
+          },
+          {
+            // Loader for webpack to process CSS with PostCSS
+            loader: 'postcss-loader',
+            options: {
+              plugins: function () {
+                return [
+                  require('autoprefixer')
+                ];
+              }
+            }
+          },
+          {
+            // Loads a SASS/SCSS file and compiles it to CSS
+            loader: 'sass-loader'
+          }
+        ]
+      }
+    ]
+  }
+};

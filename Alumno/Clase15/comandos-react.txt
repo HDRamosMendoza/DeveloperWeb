@@ -1,0 +1,8 @@
+npm -g typescript
+tsc archivo.ts
+
+# Para crear un app con Create React App:
+
+npm -g create-react-app
+create-react-app nombre-app --typescript
+npm i --save typescript @types/node @types/react @types/react-dom @types/jest
