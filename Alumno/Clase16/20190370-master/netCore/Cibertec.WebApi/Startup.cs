@@ -45,6 +45,11 @@ namespace Cibertec.WebApi
                 app.UseHsts();
             }
 
+            // Configurar CORS
+            app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+
+            // .WithOrigins(new string[] {"a1", "a2"})
+
             app.UseHttpsRedirection();
             app.UseMvc();
         }
