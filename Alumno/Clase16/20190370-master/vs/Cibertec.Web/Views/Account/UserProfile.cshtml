@@ -1,0 +1,22 @@
+﻿@using System.Security.Claims;
+
+@{
+    ViewBag.Title = "User Profile";
+}
+
+<h2>User Profile</h2>
+
+@{
+    var identity = User.Identity as ClaimsIdentity;
+    var claims = identity.Claims;
+}
+
+<ul>
+    @foreach (var claim in claims)
+    {
+        <li>
+            <b>@claim.Type</b>:@claim.Value
+        </li>
+    }
+
+</ul>
