@@ -15,6 +15,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Cibertec.WebApi.Models;
+using System.Text;
+
 
 namespace Cibertec.WebApi
 {
@@ -36,23 +38,26 @@ namespace Cibertec.WebApi
             //Leer la configuracion para generar los jwt del appSettings.json
             services.Configure<TokenManagement>(Configuration.GetSection("tokenManagement"));
             var token = Configuration.GetSection("tokenManagement").Get<TokenManagement>();
-            /*
-            // Configurar autenticacion con JWT
-            services.AddAuthentication(auth = >
+
+            // configurar autenticación con JWT
+            services.AddAuthentication(auth =>
             {
                 auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-
-            }).AddJwtBearer(
+            }).AddJwtBearer(bearerConfig =>
             {
                 bearerConfig.RequireHttpsMetadata = false;
                 bearerConfig.SaveToken = true;
                 bearerConfig.TokenValidationParameters = new TokenValidationParameters
                 {
-                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetKeys);
-                }
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(token.Secret)),
+                    ValidIssuer = token.Issuer,
+                    ValidAudience = token.Audience,
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                };
             });
-        */
+
 
             // habilitar CORS
             services.AddCors();
