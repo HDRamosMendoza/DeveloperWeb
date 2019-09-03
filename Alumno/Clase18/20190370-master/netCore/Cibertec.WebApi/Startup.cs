@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Cibertec.WebApi.Models;
 using System.Text;
-
+using Cibertec.WebApi.Services;
 
 namespace Cibertec.WebApi
 {
@@ -34,6 +34,9 @@ namespace Cibertec.WebApi
         {
             // configurar las dependencias
             services.AddSingleton<IUnitOfWork>(option => new NorthwindUnitOfWork(Configuration.GetConnectionString("Northwind")));
+
+            // Dependencia de IAuthService
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
 
             //Leer la configuracion para generar los jwt del appSettings.json
             services.Configure<TokenManagement>(Configuration.GetSection("tokenManagement"));
