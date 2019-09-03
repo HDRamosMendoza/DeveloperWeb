@@ -17,6 +17,7 @@ using Microsoft.IdentityModel.Tokens;
 using Cibertec.WebApi.Models;
 using System.Text;
 using Cibertec.WebApi.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Cibertec.WebApi
 {
@@ -64,6 +65,13 @@ namespace Cibertec.WebApi
 
             // habilitar CORS
             services.AddCors();
+
+            // Habilitar la autenticacion a nivel global
+            services.AddAuthorization(auth =>
+            {
+                auth.DefaultPolicy = new AuthorizationPolicyBuilder(new[] 
+                { JwtBearerDefaults.AuthenticationScheme }).RequireAuthenticatedUser().Build();
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

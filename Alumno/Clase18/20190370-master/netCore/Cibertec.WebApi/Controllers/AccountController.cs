@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Cibertec.WebApi.Services;
 using Cibertec.WebApi.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Cibertec.WebApi.Controllers
 {
@@ -21,6 +22,7 @@ namespace Cibertec.WebApi.Controllers
 
         [HttpPost]
         [Route("token")]
+        [AllowAnonymous]
         public IActionResult Token(TokenRequest request)
         {
             if (ModelState.IsValid)
