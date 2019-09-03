@@ -18,6 +18,7 @@ using Cibertec.WebApi.Models;
 using System.Text;
 using Cibertec.WebApi.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 namespace Cibertec.WebApi
 {
@@ -73,7 +74,7 @@ namespace Cibertec.WebApi
                 { JwtBearerDefaults.AuthenticationScheme }).RequireAuthenticatedUser().Build();
             });
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc(config=>config.Filters.Add(new AuthorizeFilter())).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
