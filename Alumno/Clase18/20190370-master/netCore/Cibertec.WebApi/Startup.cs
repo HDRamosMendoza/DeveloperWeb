@@ -12,6 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Cibertec.WebApi.Models;
 
 namespace Cibertec.WebApi
 {
@@ -29,6 +32,27 @@ namespace Cibertec.WebApi
         {
             // configurar las dependencias
             services.AddSingleton<IUnitOfWork>(option => new NorthwindUnitOfWork(Configuration.GetConnectionString("Northwind")));
+
+            //Leer la configuracion para generar los jwt del appSettings.json
+            services.Configure<TokenManagement>(Configuration.GetSection("tokenManagement"));
+            var token = Configuration.GetSection("tokenManagement").Get<TokenManagement>();
+            /*
+            // Configurar autenticacion con JWT
+            services.AddAuthentication(auth = >
+            {
+                auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            }).AddJwtBearer(
+            {
+                bearerConfig.RequireHttpsMetadata = false;
+                bearerConfig.SaveToken = true;
+                bearerConfig.TokenValidationParameters = new TokenValidationParameters
+                {
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetKeys);
+                }
+            });
+        */
 
             // habilitar CORS
             services.AddCors();
@@ -50,6 +74,9 @@ namespace Cibertec.WebApi
 
             // configurar CORS
             app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+
+            // Configurar el aplication para que utilice la autenticacion
+            app.UseAuthentication();
 
             //.WithOrigins(new string[] { "o1", "o2" })
 
