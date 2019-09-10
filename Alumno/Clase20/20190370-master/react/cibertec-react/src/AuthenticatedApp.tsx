@@ -3,8 +3,23 @@ import { ListView } from "./components/ListView";
 import { getProducts } from "./service";
 import { InsertView } from './components/InsertView';
 import { EditView } from './components/EditView';
+import { AuthContext } from './context/AuthContext';
+import { tsPropertySignature } from '@babel/types';
 
-const AuthenticatedApp: React.FC = () => {
+interface IProps {
+  cheackSessionAction: ()=> void;
+}
+
+const AuthenticatedApp: React.FC<IProps> = (props) => {
+
+  const authContext = React.useContext(AuthContext);
+  const cerrarSesion = () => {
+    // Cerrar sesion (borrar el token del local storage)
+    authContext.signOut();
+    // Actualizamos la session
+    props.checkSessionAction();
+  }
+
   // crear un state para manejar las vistas
   const [vistaActual, setVistaActual] = React.useState("lista");
 
@@ -39,12 +54,14 @@ const AuthenticatedApp: React.FC = () => {
     setVistaActual(vistaNueva);
   }
 
+  
+
   return (
-    <div className="container is-fluid">
+    <>
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+            <img src="https://www.cibertec.edu.pe/wp-content/themes/cibertec/statics/img/logo-white.svg" width="112" height="28" />
           </a>
 
           <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -64,7 +81,7 @@ const AuthenticatedApp: React.FC = () => {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is-light">
+                <a className="button is-light" onClick={()=> {cerrarSesion()}}>
                   Cerrar Sesión
                 </a>
               </div>
@@ -72,8 +89,11 @@ const AuthenticatedApp: React.FC = () => {
           </div>
         </div>
       </nav>
-      {obtenerVista()}
-    </div>
+    
+      <div className="container is-fluid">
+        {obtenerVista()}
+      </div>
+    </>
   );
 }
 

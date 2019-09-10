@@ -19,6 +19,7 @@ using System.Text;
 using Cibertec.WebApi.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Cibertec.WebApi.Hubs;
 
 namespace Cibertec.WebApi
 {
@@ -71,6 +72,12 @@ namespace Cibertec.WebApi
                 auth.DefaultPolicy = new AuthorizationPolicyBuilder(new[] { JwtBearerDefaults.AuthenticationScheme }).RequireAuthenticatedUser().Build();
             });
 
+            // Habilitar singlR
+            services.AddSignalR();
+
+            // Habilitar CORS
+            services.AddCors();
+
             // habilitar la autenticación a nivel global
             services.AddMvc(config => config.Filters.Add(new AuthorizeFilter())).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -96,6 +103,10 @@ namespace Cibertec.WebApi
             //.WithOrigins(new string[] { "o1", "o2" })
 
             app.UseHttpsRedirection();
+
+            // Configurar SignalR
+            app.UseSignalR(hubs => hubs.MapHub<ChatHub>("/chathub"));
+
             app.UseMvc();
         }
     }
