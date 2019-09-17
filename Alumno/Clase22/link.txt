@@ -1,0 +1,3 @@
+https://dotnet.microsoft.com/download/dotnet-core/2.1
+
+https://aws.amazon.com/es/lightsail/

@@ -1,0 +1,12 @@
+C:\Users\VS2017-LM\Documents\wd\20190370\vs\Cibertec.Models\bin\Debug\Cibertec.Models.dll
+C:\Users\VS2017-LM\Documents\wd\20190370\vs\Cibertec.Models\bin\Debug\Cibertec.Models.pdb
+C:\Users\VS2017-LM\Documents\wd\20190370\vs\Cibertec.Models\obj\Debug\Cibertec.Models.csprojAssemblyReference.cache
+C:\Users\VS2017-LM\Documents\wd\20190370\vs\Cibertec.Models\obj\Debug\Cibertec.Models.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-LM\Documents\wd\20190370\vs\Cibertec.Models\obj\Debug\Cibertec.Models.dll
+C:\Users\VS2017-LM\Documents\wd\20190370\vs\Cibertec.Models\obj\Debug\Cibertec.Models.pdb
+C:\GitHub\DeveloperWeb\Alumno\Clase22\ciebrtec-net-tradicional\Cibertec.Models\bin\Debug\Cibertec.Models.dll
+C:\GitHub\DeveloperWeb\Alumno\Clase22\ciebrtec-net-tradicional\Cibertec.Models\bin\Debug\Cibertec.Models.pdb
+C:\GitHub\DeveloperWeb\Alumno\Clase22\ciebrtec-net-tradicional\Cibertec.Models\obj\Debug\Cibertec.Models.csprojAssemblyReference.cache
+C:\GitHub\DeveloperWeb\Alumno\Clase22\ciebrtec-net-tradicional\Cibertec.Models\obj\Debug\Cibertec.Models.csproj.CoreCompileInputs.cache
+C:\GitHub\DeveloperWeb\Alumno\Clase22\ciebrtec-net-tradicional\Cibertec.Models\obj\Debug\Cibertec.Models.dll
+C:\GitHub\DeveloperWeb\Alumno\Clase22\ciebrtec-net-tradicional\Cibertec.Models\obj\Debug\Cibertec.Models.pdb

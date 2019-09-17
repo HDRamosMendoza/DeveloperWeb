@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Cibertec.DemoBackend.Models.ColegioDbContext-Web.config Connection String" description="Cibertec.DemoBackend.Models.ColegioDbContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Cibertec.DemoBackend.Models.ColegioDbContext_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\GitHub\\DeveloperWeb\\Alumno\\Clase22\\ciebrtec-net-tradicional\\Cibertec\.DemoBackend\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Cibertec.DemoBackend.Models.ColegioDbContext']/@connectionString" />
+  </parameter>
+</parameters>
